@@ -70,7 +70,9 @@ Now we need to write our xml file to tell QuickServer about our server's configu
 
 So that's it, we should be ready with our server. Lets start it by giving the following command.
 
+{{{
 *java -jar QuickServer.jar -load HelloWorld.xml*
+}}}
 
 You should see similar output on your screen.
 
