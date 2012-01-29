@@ -41,3 +41,42 @@ public class HelloWorldCommandHandler implements ClientCommandHandler {
 	}
 }
 }}}
+
+This class implements the org.quickserver.net.server.ClientCommandHandler interface as required by QuickServer. Rest of the code should be self explanatory (else refer to "Developers Guide").
+ 
+Now compile this file and make a jar out of it. Make sure you include QuickServer.jar in your CLASSPATH environment variable before you try to compile. 
+
+{{{
+javac mypackage/*.java
+jar cvf helloworld.jar mypackage/*.class
+}}}
+
+Now we need to write our xml file to tell QuickServer about our server's configuration. Note that writing xml is not required and QuickServer can be started with out one (configurable programmatically), but it just makes it easy to use xml and configure a server. So below is the HelloWorld.xml 
+
+{{{
+<quickserver>
+	<name>HelloWorld v 0.1</name>
+	<port>1000</port>
+	<bind-address>0.0.0.0</bind-address>
+
+	<client-command-handler>
+		mypackage.HelloWorldCommandHandler
+	</client-command-handler>
+
+	<application-jar-path>helloworld.jar</application-jar-path>
+</quickserver>
+}}}
+
+So that's it, we should be ready with our server. Lets start it by giving the following command.
+ 
+*java -jar QuickServer.jar -load HelloWorld.xml*
+ 
+You should see similar output on your screen.
+http://quickserver.org/docs/quickstart/output1.gif
+
+== Testing ==
+Now you can use any socket communication software like telnet to connect on port 1000 and comunicate with the server that we just built.
+ 
+Alternatively you may use 'SocketTest' - a java based tool for testing sockets (Download/WebStart from http://sockettest.sourceforge.net/)
+ 
+Below is the screen shot of a simple test using SocketTest. 
