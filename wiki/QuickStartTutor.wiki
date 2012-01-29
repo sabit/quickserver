@@ -1,0 +1,43 @@
+#summary QuickStart Tutor - Building HelloWorld Server
+
+= Introduction =
+This Quick Start Guide shows you how to create a multi client "HelloWorld" server application using the QuickServer (v 1.4.6 or above).
+
+== Interaction ==
+So lets say our server will interact with the client some thing like this.. 
+{{{
+C: <open connection>
+S: Hello Word!
+C: hi
+S: You Sent: Hi
+C: quit
+S: bye
+S: <close connection>
+}}}
+
+
+= Code =
+So now lets start by writing a command handler that implements this 
+
+{{{
+// HelloWorldCommandHandler.java
+package mypackage;
+
+import java.net.*;
+import java.io.*;
+import org.quickserver.net.server.ClientCommandHandler;
+import org.quickserver.net.server.ClientHandler;
+
+public class HelloWorldCommandHandler implements ClientCommandHandler {
+
+	public void handleCommand(ClientHandler handler, String command) 
+			throws SocketTimeoutException, IOException {
+		if(command.equals("quit")) {
+			handler.sendClientMsg("bye");
+			handler.closeConnection();
+		} else {
+			handler.sendClientMsg("You Sent: "+command);
+		}
+	}
+}
+}}}
