@@ -21,6 +21,11 @@ RUBIOS 2.0 is a Java based open source communications API for for Social Robots.
 
 URL: http://mplab.ucsd.edu/wordpress/?page_id=392
 
+== TerraWorld Online ==
+Online mmorpg game called TerraWorld Online.
+
+URL: http://www.terragaming.net
+
 == QuickMonitor ==
 Tool that monitors configured services.
 
