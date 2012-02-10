@@ -16,6 +16,10 @@ jSoapServer is a standalone SOAP server. So there is no need for java programs t
 
 URL: http://jsoapserver.sourceforge.net/
 
+== RUBIOS ==
+RUBIOS 2.0 is a Java based open source communications API for for Social Robots. It is built on top of QuickServer, an open source Java library for multi-threaded, multi-client TCP server applications. RUBIOS 2.0 was developed as part of the RUBI project to be the backbone for interconnecting the different perceptual and control modules of the RUBI robot. RUBI is a social robot developed to interact with toddlers and assist teachers in early childhood education settings. RUBIOS has been battle tested in MacOSX 10.4.X and Windows XP with Cygwin. 
+
+URL: http://mplab.ucsd.edu/wordpress/?page_id=392
 
 == QuickMonitor ==
 Tool that monitors configured services.
