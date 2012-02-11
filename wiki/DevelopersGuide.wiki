@@ -1,0 +1,40 @@
+#summary Intro page of Developers Guide
+#labels Phase-Implementation
+
+= What is Developers Guide? =
+
+A good way to learn how to use QuickServer library is to study the examples provided with it. And even better way is to writing a server using the QuickServer library. That’s what this book will be helping you do.
+ 
+This guide is for any developer who wants to learn and use QuickServer. You should have basic knowledge of coding in java. Any knowledge of networking and sockets will help. 
+
+http://www.quickserver.org/pics/DevelopersGuidePoster.jpg
+
+= Version =
+
+Current Version: 0.3 (Pre-Release)
+
+= Author =
+Authored by:
+   Akshathkumar Shetty
+
+Contributions By:
+   Sean Stallbaum
+
+
+Table of Contents 
+* Introduction
+* Installation	Done
+* Building basic echoserver	Done
+* Adding authentication	Done
+* Using clientdata	Done
+* Using remote admin support	Done
+* Using logging and customisation	Done
+* Xml configuration	Done
+* Data Modes And Data Types	Done
+* Communication With OBJECT Mode	ToDo
+* Communication With BYTE Mode	ToDo
+* XML based JDBC Mapping	ToDo
+
+= Credits =
+ 
+Thanks to everyone who helped me with this book. Thanks to all users who sent their valuable comments and suggestion. My special thanks to Mr. Sean Stallbaum for all his contributions. My special thanks to www.amgmedia.com for the coffee pot image. 
