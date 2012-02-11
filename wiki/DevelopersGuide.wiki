@@ -21,19 +21,20 @@ Contributions By:
    Sean Stallbaum
 
 
-Table of Contents 
-* Introduction
-* Installation	Done
-* Building basic echoserver	Done
-* Adding authentication	Done
-* Using clientdata	Done
-* Using remote admin support	Done
-* Using logging and customisation	Done
-* Xml configuration	Done
-* Data Modes And Data Types	Done
-* Communication With OBJECT Mode	ToDo
-* Communication With BYTE Mode	ToDo
-* XML based JDBC Mapping	ToDo
+== Table of Contents ==
+
+ * Introduction
+ * Installation
+ * Building basic echo server
+ * Adding authentication
+ * Using client-data
+ * Using remote admin support
+ * Using logging and customization
+ * Xml configuration
+ * Data Modes And Data Types
+ * Communication With OBJECT Mode
+ * Communication With BYTE Mode
+ * XML based JDBC Mapping
 
 = Credits =
  
