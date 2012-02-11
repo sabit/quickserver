@@ -9,11 +9,10 @@ This guide is for any developer who wants to learn and use QuickServer. You shou
 
 http://www.quickserver.org/pics/DevelopersGuidePoster.jpg
 
-= Version =
-
+=== Version ===
 Current Version: 0.3 (Pre-Release)
 
-= Author =
+=== Author ===
 Authored by:
    Akshathkumar Shetty
 
