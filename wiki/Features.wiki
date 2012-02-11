@@ -38,4 +38,6 @@
  * GhostSocketReaper now will close pools after last client disconnects after server is stopped.
  * Many more bug fixes and enhancements.
 
-[Download] [Change Log]
+Download Page: DownloadPage
+
+View Change Log: ChangeLog
