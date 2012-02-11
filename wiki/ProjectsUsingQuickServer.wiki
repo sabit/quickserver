@@ -7,13 +7,13 @@
 
 This is a page to document all known projects that use QuickServer.
 
+== Quick Cached ==
 
-== QuickCached ==
 QuickCached is a memcached server implementation in Java based on QuickServer. It is an open source, high-performance, distributed memory object caching system, generic in nature, but intended for use in speeding up dynamic web applications by alleviating database load. 
 
 URL: http://code.google.com/p/quickcached/
 
-== jSoapServer ==
+== jSoap Server ==
 jSoapServer is a standalone SOAP server. So there is no need for java programs to run in application server containers (e.g. Apache Tomcat) to get the possibility to contact them via SOAP calls. 
 
 URL: http://jsoapserver.sourceforge.net/
@@ -23,13 +23,13 @@ RUBIOS 2.0 is a Java based open source communications API for for Social Robots.
 
 URL: http://mplab.ucsd.edu/wordpress/?page_id=392
 
-== TerraWorld Online ==
+== Terra World Online ==
 Online mmorpg game called TerraWorld Online.
 
 URL: http://www.terranovita.com/ 
 URL: http://www.terragaming.net
 
-== QuickMonitor ==
+== Quick Monitor ==
 Tool that monitors configured services.
 
 URL: http://code.google.com/p/quickmonitor/
