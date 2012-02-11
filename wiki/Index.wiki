@@ -5,14 +5,13 @@
 
 = Introduction =
 
-QuickServer Wiki Index Page. Intro to [http://code.google.com/p/quickserver/wiki/QuickServer QuickServer].
-
+QuickServer Wiki Index Page. Intro to QuickServer.
 
 = Tutor =
 
 QuickStartTutor - A simple quick start tutor for building HelloWorld Server and client.
 
-QuickStartTutor - A simple quick start tutor for building HelloWorld Server and client.
+DevelopersGuide - A good way to learn how to use QuickServer library is to study the examples provided with it. And even better way is to writing a server using the QuickServer library. That’s what this book will be helping you do. 
 
 = Projects Using QuickServer =
 ProjectsUsingQuickServer - List of all known projects that use QuickServer.
