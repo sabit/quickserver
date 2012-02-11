@@ -15,4 +15,4 @@ QuickStartTutor - A simple quick start tutor for building HelloWorld Server and 
 QuickStartTutor - A simple quick start tutor for building HelloWorld Server and client.
 
 = Projects Using QuickServer =
-List of all [http://code.google.com/p/quickserver/wiki/ProjectsUsingQuickServer known projects] that use QuickServer 
+ProjectsUsingQuickServer - List of all known projects that use QuickServer.
