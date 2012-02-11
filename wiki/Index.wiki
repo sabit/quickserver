@@ -7,7 +7,7 @@
 
 QuickServer Wiki Index Page. Intro to QuickServer.
 
-= Tutor =
+= Tutorials =
 
 QuickStartTutor - A simple quick start tutor for building HelloWorld Server and client.
 
