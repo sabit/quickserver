@@ -1,6 +1,8 @@
 #summary QuickServer Wiki Index Page
 #labels Featured
 
+<wiki:toc max_depth="1" />
+
 = Introduction =
 
 QuickServer Wiki Index Page. Intro to [http://code.google.com/p/quickserver/wiki/QuickServer QuickServer].
@@ -8,8 +10,9 @@ QuickServer Wiki Index Page. Intro to [http://code.google.com/p/quickserver/wiki
 
 = Tutor =
 
-[http://code.google.com/p/quickserver/wiki/QuickStartTutor QuickStart-Tutor] - Building HelloWorld Server 
+QuickStartTutor - A simple quick start tutor for building HelloWorld Server and client.
 
+QuickStartTutor - A simple quick start tutor for building HelloWorld Server and client.
 
-== Projects Using QuickServer ==
+= Projects Using QuickServer =
 List of all [http://code.google.com/p/quickserver/wiki/ProjectsUsingQuickServer known projects] that use QuickServer 
