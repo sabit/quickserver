@@ -1,6 +1,8 @@
 #summary List of all known projects that use QuickServer
 #labels Featured
 
+<wiki:toc max_depth="2" />
+
 = Introduction =
 
 This is a page to document all known projects that use QuickServer.
