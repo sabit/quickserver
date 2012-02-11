@@ -1,0 +1,41 @@
+#summary Features List for QuickServer
+
+= Major Features =
+ * Create multi-client TCP server applications.
+ * Support for secure server creations: SSL, TLS.
+ * Support for thread per client (multi-threaded) - Blocking Mode.
+ * Support for non-blocking input output - Non-Blocking Mode.
+ * Clear separation of server, protocol and authentication logic.
+ * Remote administration support: QSAdminServer (With support plugable application commands).
+ * Command Shell for local administration of server.
+ * GUI based remote administration: QsAdminGUI (with support for plug-ins)
+ * Restart or Suspend the server without killing connected clients.
+ * In build pools for reusing of Threads and most used Objects.
+ * Full logging support [Java built in Logging].
+ * Support for sending and receiving Strings, Bytes, Binary and serialized java objects.
+ * Support for identifying and searching a client.
+ * Support for xml configuration with ability to store application specific data in the same xml. [View Sample]
+ * Support for xml Based JDBC Mapping.
+ * Support for Service Configurator pattern.
+ * Support for restricting access to server by ip address.
+ * Support for loading/reloading application jar from xml.
+ * Ability to add process hooks into QuickServer.
+ * Ability to specify maximum number of clients allowed.
+ * Support for negotiating secure connection over normal tcp connection.
+ * Nice easy examples come with the distribution - FTPServer, CmdServer, EchoWebServer, ChatServer, SecureEchoWebServer, XmlAdder, PipeServer, Filesrv.
+
+
+ 
+= What's New in 1.4.7 =
+
+ * Implemented support auto NIO writes in sendClientXXX methods of ClientHandler.
+ * Added initServer() method that throws AppException if it fails.
+ * Added getServiceError() to Service.
+ * Added load() method to QuickServer that loads the server from the xml file.
+ * Improved ByteBufferInputStream for readLine.
+ * Improved BasicClientHandler, NonBlockingClientHandler.
+ * Improved setClassLoader() in QuickServer.
+ * GhostSocketReaper now will close pools after last client disconnects after server is stopped.
+ * Many more bug fixes and enhancements.
+
+[Download] [Change Log]
