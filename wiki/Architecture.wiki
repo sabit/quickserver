@@ -40,7 +40,7 @@ For every server instance there will be
  * Every client connected will have a ClientHandler implementation associated with it based on the server mode
     * Blocking Mode = BlockingClientHandler 
     * Non Blocking Mode = NonBlockingClientHandler 
-* If ClientData is set, then every ClientHandler will have an instance of ClientData associated with it. The ClientData objects will be polled if it implements PoolableObject interface.
+ * If ClientData is set, then every ClientHandler will have an instance of ClientData associated with it. The ClientData objects will be polled if it implements PoolableObject interface.
  * Based on the server mode, threads will be associated with ClientHandler to execute any processing for the client i.e.;
     * In Blocking Mode: A thread is dedicated to every ClientHandler for processing events from the client. 
     * In Non Blocking Mode: A thread is associated with a ClientHandler only as needed or when data is available for processing.
