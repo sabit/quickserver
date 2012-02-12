@@ -19,7 +19,7 @@ Contributions By: Sean Stallbaum
 == Table of Contents ==
 
  * [DevelopersGuideCh1 Introduction]
- * Installation
+ * [DevelopersGuideCh2 Installation]
  * Building basic echo server
  * Adding authentication
  * Using client-data
