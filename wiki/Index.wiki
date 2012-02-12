@@ -9,7 +9,7 @@ QuickServer Wiki Index Page. Intro to QuickServer.
 
 = Tutorials =
 
-Architecture - QuickServer Architecture Overview.
+[Architecture Architecture] - QuickServer Architecture Overview.
 
 QuickStartTutor - A simple quick start tutor for building HelloWorld Server and client.
 
