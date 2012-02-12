@@ -32,7 +32,7 @@ For more information on architecture view QuickServer [Architecture Basic-Archit
 
 For information on features view Feature List
  
-Developers do checkout our [http://quickserver.org/docs/guide.html Developers-Guide-Web], [http://quickserver.org/docs/quickstart/index.html QuickStart-Tutor].
+Developers do checkout our [QuickStartTutor QuickStart-Tutor], [DevelopersGuide Developers Guide].
 
 == API Documentation ==
 View API Docs of v [http://quickserver.org/docs/1.4.7 1.4.7]
