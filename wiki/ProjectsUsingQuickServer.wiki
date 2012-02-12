@@ -1,5 +1,5 @@
 #summary List of all known projects that use QuickServer
-#labels Featured
+#labels Phase-Implementation
 
 <wiki:toc max_depth="2" />
 
