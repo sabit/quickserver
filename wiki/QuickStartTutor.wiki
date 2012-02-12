@@ -152,7 +152,13 @@ public class HelloWorldClient {
 }}}
 
 Note that in the above QuickStart we receive and send strings that end with newline (\r\n) character. This is known as STRING mode and is the default mode of data exchange. QuickServer supports other modes of data exchange like BYTE, BINARY, OBJECT.
- 
-If you like to know about features that come with QuickServer click [http://quickserver.org/docs/features.html here].
- 
-If you need more detailed explanation on developing server's using QuickServer refer to examples that come with QuickServer and/or Developers Guide and API documentation. 
+
+
+If you like to know about features that come with QuickServer [Features click here].
+
+
+For more information on architecture view `QuickServer` [Architecture Basic-Architecture].
+
+If you need more detailed explanation on developing server's using QuickServer refer to examples that come with QuickServer.
+
+Its also recommended you reffer [DevelopersGuide Developers Guide] and API documentation. 
