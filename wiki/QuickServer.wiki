@@ -28,7 +28,7 @@ QuickServer divides the application logic of its developer over eight main class
 
 [#] = Any one of these have to be set based on default DataMode for input. The default DataMode for input is String so if not changes you will have to set ClientCommandHandler.
 
-For more information on architecture view QuickServer Basic [Architecture Architecture].
+For more information on architecture view QuickServer [Architecture Basic-Architecture].
 
 For information on features view Feature List
  
