@@ -157,8 +157,8 @@ Note that in the above QuickStart we receive and send strings that end with newl
 If you like to know about features that come with QuickServer [Features click here].
 
 
-For more information on architecture view `QuickServer` [Architecture Basic-Architecture].
+For more information on architecture view ``QuickServer`` [Architecture Basic-Architecture].
 
 If you need more detailed explanation on developing server's using QuickServer refer to examples that come with QuickServer.
 
-Its also recommended you reffer [DevelopersGuide Developers Guide] and API documentation. 
+Its also recommended you reffer [DevelopersGuide Developers Guide] and [APIDocumentation API Documentation]. 
