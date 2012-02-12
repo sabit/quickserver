@@ -20,7 +20,7 @@ Contributions By: Sean Stallbaum
 
  * [DevelopersGuideCh1 Introduction]
  * [DevelopersGuideCh2 Installation]
- * Building basic echo server
+ * [DevelopersGuideCh3 Building basic Echo Server]
  * Adding authentication
  * Using client-data
  * Using remote admin support
