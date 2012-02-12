@@ -112,7 +112,7 @@ Now lets compile our new program...
     {{{ java echoserver.EchoServer }}}
  * You should get something like this		
 {{{
-Loading QuickServer v1.3 .. Done
+Loading QuickServer v1.4.8 [PID:1234]... Done
 
 -------------------------------
  Name : EchoServer v 1.0
