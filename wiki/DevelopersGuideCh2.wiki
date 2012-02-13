@@ -1,5 +1,6 @@
 #summary Developers Guide Chapter 2 - Installation
 #labels Phase-Implementation
+#sidebar DevelopersGuideTOC
 
 = Prerequisites =
 
