@@ -5,6 +5,7 @@
     * [Architecture Architecture]
     * [QuickStartTutor Quick Start]
     * [DevelopersGuide Developers Guide]
+    * [APIDocumentation API Doc]
  * [Features Features]
     * [Features Feature list]
     * [ChangeLog ChangeLog]
