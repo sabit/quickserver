@@ -117,10 +117,8 @@ Some time when authorising we may need to close the client connection instead of
 *Throw a AppException*
  like this from askAuthorisation() method like this
 {{{
-	String username = askStringInput(clientHandler, 
-"User Name :");
-	if(username!=null && 
-username.equalsIgnoreCase("QUIT")) {
+	String username = askStringInput(clientHandler, "User Name :");
+	if(username!=null && username.equalsIgnoreCase("QUIT")) {
 		sendString(clientHandler, "Logged out.");
 		throw new AppException("Quit");
 	}
@@ -129,10 +127,8 @@ username.equalsIgnoreCase("QUIT")) {
 *Get reference to ClientHandler and then close the connection.*
 Like this
 {{{
-	String username = askStringInput(clientHandler, 
-"User Name :");
-	if(username!=null && 
-username.equalsIgnoreCase("QUIT")) {
+	String username = askStringInput(clientHandler, "User Name :");
+	if(username!=null && username.equalsIgnoreCase("QUIT")) {
 		sendString(clientHandler, "Logged out.");
 		ClientHandler ch = getClientHandler();
 		ch.closeConnection();
