@@ -55,4 +55,10 @@ QSAdmin:>_
 http://farm8.staticflickr.com/7195/6862071243_e755de6657_b.jpg
 
 = Code for this book =
-To use this book effectively you will also need the code, you must have received it with the book, if not do download it from TODO and extract it to c:\Quickserver\tutor.
+To use this book effectively you will also need the code, you must have received it with the book, if not do download it from SVN.
+
+{{{
+https://quickserver.svn.sourceforge.net/svnroot/quickserver/developersguide/trunk/
+}}}
+
+Once downloaded (if zip file) extract it to c:\Quickserver\tutor.
