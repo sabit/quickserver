@@ -1,4 +1,4 @@
-#summary TOC
+#summary TOC for QuickServer Wiki
 
  * [QuickServer Introduction]
  * [Tutorials Tutorials]
