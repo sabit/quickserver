@@ -14,8 +14,6 @@ Current Version: 0.3 (Pre-Release)
 
 Authored by: Akshathkumar Shetty
 
-Contributions By: Sean Stallbaum
-
 
 _NOTE: This is still a work in progress and we are converting this from the pdf(http://www.quickserver.org/docs/DevelopersGuide.pdf) version to a wiki version._
 
