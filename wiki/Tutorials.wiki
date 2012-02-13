@@ -1,5 +1,5 @@
 #summary List of QuickServer Tutorials
-#labels Phase-Implementation
+#labels Phase-Implementation,Featured
 
 [Architecture Architecture] - QuickServer Architecture Overview.
 
