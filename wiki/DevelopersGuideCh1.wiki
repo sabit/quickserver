@@ -1,5 +1,6 @@
 #summary DevelopersGuide Chapter 1 - Introduction
 #labels Phase-Implementation
+#sidebar DevelopersGuideTOC
 
 = Introduction =
 `QuickServer` is a free, open source Java library for quick creation of robust and multi-threaded, multi-client TCP server applications. It provides an abstraction over the java.net.ServerSocket class; it eases the creation of powerful server applications. It has been designed and implemented by Akshathkumar Shetty. 
@@ -75,5 +76,3 @@ If you use QuickServer in your development and if you would like to share your e
 
 = Credits =
 Thanks to everyone who helped me with this book. Thanks to all users who sent their valuable comments and suggestion. My special thanks to Mr. Sean Stallbaum for all his contributions. My special thanks to www.amgmedia.com for the coffee pot image.
-
-
