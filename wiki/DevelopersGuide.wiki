@@ -1,5 +1,6 @@
 #summary Intro page of Developers Guide
 #labels Phase-Implementation
+#sidebar DevelopersGuideTOC
 
 = What is Developers Guide? =
 
