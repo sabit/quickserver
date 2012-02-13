@@ -3,13 +3,13 @@
 
 = Adding Authentication =
 
-In the last chapter we created a basic server. Now lets add some authentication to it. If we look in the APIDocumentation [docs folder] of org.quickserver.net.server.QuickServer you will notice it has a method like
+In the last chapter we created a basic server. Now lets add some authentication to it. If we look in the [APIDocumentation APIDocumentation] [docs folder] of org.quickserver.net.server.QuickServer you will notice it has a method like
 
 {{{
 public void setAuthenticator(java.lang.String authenticator)
 }}}
 
-Further reading of the APIDocumentation tells us that authenticator is the fully qualified name of the class that implements
+Further reading of the [APIDocumentation APIDocumentation] tells us that authenticator is the fully qualified name of the class that implements
 
 {{{org.quickserver.net.server.Authenticator}}} class. 
 
