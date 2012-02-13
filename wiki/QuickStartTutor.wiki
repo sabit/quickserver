@@ -1,5 +1,5 @@
 #summary QuickStart Tutor - Building HelloWorld Server
-#labels Featured,Phase-Implementation
+#labels Phase-Implementation
 
 = Introduction =
 This Quick Start Guide shows you how to create a multi client "HelloWorld" server application using the QuickServer (v 1.4.6 or above).
