@@ -1,5 +1,6 @@
 #summary Developers Guide Chapter 3 - Building Basic EchoServer
 #labels Phase-Implementation
+#sidebar DevelopersGuideTOC
 
 = Building Basic EchoServer =
 
