@@ -114,8 +114,8 @@ R: Echo : Hello
 
 Some time when authorising we may need to close the client connection instead of letting him try again we can do this in two ways
 
-*Throw a AppException*
- like this from askAuthorisation() method like this
+*Throw a AppException from askAuthorisation() method*
+Like this
 {{{
 	String username = askStringInput(clientHandler, "User Name :");
 	if(username!=null && username.equalsIgnoreCase("QUIT")) {
