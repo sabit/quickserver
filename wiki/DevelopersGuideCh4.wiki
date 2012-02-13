@@ -1,5 +1,6 @@
 #summary Developers Guide Chapter 3 - Adding Authentication
 #labels Phase-Implementation
+#sidebar DevelopersGuideTOC
 
 = Adding Authentication =
 
