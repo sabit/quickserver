@@ -19,5 +19,5 @@ DevelopersGuide - A good way to learn how to use QuickServer library is to study
 Features - List of full features of QuickServer
 ChangeLog - List of all verions of QuickServer and its features.
 
-= Projects Using QuickServer =
+= Projects Using `QuickServer` =
 ProjectsUsingQuickServer - List of all known projects that use QuickServer.
