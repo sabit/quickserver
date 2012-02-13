@@ -1,6 +1,6 @@
 #summary TOC
 
- * [Introduction QuickServer]
+ * [QuickServer Introduction]
  * [Tutorials Tutorials]
  * [Features Features]
     * [Features Feature list]
