@@ -65,7 +65,7 @@ In the method askAuthorisation() we ask username from the client by using askStr
 
 The same method askStringInput(), will read the client input. If the password matches the username supplied, we return true indicating client was authorised else we return false. 
 
-Now lets tell QuickServer to use our new authenticator as its Authenticator. Edit the java file EchoServer.java created in the previous chapter to look like this [Changes shown in bold].
+Now lets tell QuickServer to use our new authenticator as its Authenticator. Edit the java file EchoServer.java created in the previous chapter to look like this [setAuthenticator() method].
 
 {{{
 package echoserver;
@@ -81,8 +81,8 @@ public class EchoServer {
     
     QuickServer myServer = 
       new QuickServer("echoserver.EchoCommandHandler");
-    *myServer.setAuthenticator(
-      "echoserver.EchoServerQuickAuthenticator");*
+    myServer.setAuthenticator(
+      "echoserver.EchoServerQuickAuthenticator");
     myServer.setPort(4123);
     myServer.setName("EchoServer v 1.0");
     try {
@@ -99,10 +99,10 @@ Now lets compile our changed program. Run it as described the previous chapter. 
 This can be changed using setMaxAuthTry() and setMaxAuthTryMsg() method of QuickServer class.  Bellow is a sample output.
 
 {{{
-R: ++++++++++++++++++++++++++++++++++ 
+R: ++++++++++++++++++++++++++++++++++++++
 R: | 	Welcome to EchoServer v 1.0 	| 
 R: |        Send 'Quit' to exit  	| 
-R: ++++++++++++++++++++++++++++++++++ 
+R: ++++++++++++++++++++++++++++++++++++++
 R: User Name : 
 S: user 
 R: Password : 
@@ -142,7 +142,6 @@ username.equalsIgnoreCase("QUIT")) {
 
 _Note: ClientHandler object can provide many useful information about client connected like ip address, refer to the API docs for more information._
 
-*Warning :*
+*Warning*
  * Do not store any client related information in the authenticator class, if you need you must put it in the ClientData class – covered in the next chapter. 
  * You mast also make sure the askAuthorisation()  method is thread safe
-
