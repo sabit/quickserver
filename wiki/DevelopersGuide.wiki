@@ -20,21 +20,6 @@ Contributions By: Sean Stallbaum
 _NOTE: This is still a work in progress and we are converting this from the pdf(http://www.quickserver.org/docs/DevelopersGuide.pdf) version to a wiki version._
 
 
-== Table of Contents ==
-
- * [DevelopersGuideCh1 Introduction]
- * [DevelopersGuideCh2 Installation]
- * [DevelopersGuideCh3 Building basic Echo Server]
- * [DevelopersGuideCh4 Adding authentication]
- * Using client-data
- * Using remote admin support
- * Using logging and customization
- * Xml configuration
- * Data Modes And Data Types
- * Communication With OBJECT Mode
- * Communication With BYTE Mode
- * XML based JDBC Mapping
-
 = Credits =
  
 Thanks to everyone who helped me with this book. Thanks to all users who sent their valuable comments and suggestion. My special thanks to Mr. Sean Stallbaum for all his contributions. My special thanks to www.amgmedia.com for the coffee pot image. 
