@@ -2,7 +2,7 @@
 #labels Phase-Implementation
 #sidebar DevelopersGuideTOC
 
-= What is Developers Guide? =
+= Developers Guide =
 
 A good way to learn how to use QuickServer library is to study the examples provided with it. And even better way is to writing a server using the QuickServer library. That’s what this book will be helping you do.
  
