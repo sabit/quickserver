@@ -1,9 +1,9 @@
-#summary DevelopersGuide TOC
- Developers Guide v 0.4
+#summary QuickServer Developers Guide TOC
+*Developers Guide v 0.4*
 
- [QuickServer Wiki Home]
+[QuickServer Wiki Home]
 
- * [DevelopersGuide Cover]
+ * [DevelopersGuide Cover Page]
  * CH1:[DevelopersGuideCh1 Introduction]
  * CH2:[DevelopersGuideCh2 Installation]
  * CH3:[DevelopersGuideCh3 Building basic Echo Server]
