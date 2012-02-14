@@ -1,5 +1,6 @@
 #summary Developers Guide Chapter 5 - Using ClientData
 #labels Phase-Implementation
+#sidebar DevelopersGuideTOC
 
 = Using ClientData =
 
@@ -317,9 +318,16 @@ package org.apache.commons.pool does not exist
 }}}
 
 This is because compiler does not know this class, you will have to add the 
-commons-pool.jar in QuickServer library installation directory (Say c:\QuickServer) this can be done by the following command on windows
+commons-pool.jar in QuickServer library installation directory (Say c:\QuickServer).
+
+This can be done by the following command on windows
 {{{
 set CLASSPATH=%CLASSPATH%;c:\QuickServer\dist\commons-pool.jar
+}}}
+
+This can be done by the following command on Unix/Linux
+{{{
+CLASSPATH=$CLASSPATH:/home/user/QuickServer/dist/commons-pool.jar
 }}}
 
 Run it as described the previous chapters. When you try to connect this time, the output of the server will be the same but ClientData class is not recreated for each client connected instead it will be reused.
