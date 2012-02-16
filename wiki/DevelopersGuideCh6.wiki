@@ -65,7 +65,7 @@ If no explicit Authenticator is set then QSAdminServer will use {{{org.quickserv
 
 {{{
 Username : Admin
-Password  : QsAdm1n 
+Password : QsAdm1n 
 }}}
 
 So, now lets compile the new program and run it, it should show the output has bellow indicating admin server is running on 4124 port.
@@ -97,3 +97,22 @@ On Linux/Unix you can also do the following:
 Clicking/Executing on batch file “QsAdminGUI.sh” located under bin directory of QuickServer installation. 
 
 The GUI should be some thing like this
+http://farm8.staticflickr.com/7047/6887045799_82f767c299_o.png
+
+You can now connect to the Admin server of the EchoServer by clicking on “Login” button on the top right hand side. This will popup an login dialog box where you can input IP Address and port were our server is running like 127.0.0.1 and 4124.
+
+It will also ask you the username and password, since we are using the default authenticator the default will work for us. Then click on login button.
+
+http://farm8.staticflickr.com/7210/6887045899_bca2c7a0d3_o.png
+
+Once logged in the Status will show Authorised, now you can send it command by selecting the target server and clicking on the command buttons on the main tab. 
+
+So what’s target? Target is basically the server to which the command has to be sent, since both EchoServer(Server) and our EchoAdmin (AdminServer) are basically `QuickServers`.  The command buttons have nice descriptive tool tips that tell what the command will do. 
+
+On the right had side there is a text box that can be used to send any commands directly to the server, refer to the QsAdmin command handler: {{{org.quickserver.net.qsadmin.CommandHandler}}} api docs. 
+
+To change server configuration you can use “Get/Set” tab. Just select the target and click on “Reload Properties For The Target” to load the configuration for the target server. Change the parameter you like and click on “Save” button to save it. Some parameter will need the server to be restarted for it to take effect (though this will not kill any connected client).
+
+Just try a few options and explore the GUI. 
+
+= Adding your own command =
