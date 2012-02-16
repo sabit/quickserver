@@ -9,7 +9,7 @@
  * CH3:[DevelopersGuideCh3 Building basic Echo Server]
  * CH4:[DevelopersGuideCh4 Adding authentication]
  * CH5:[DevelopersGuideCh5 Using ClientData]
- * CH6:Using remote admin support
+ * CH6:[DevelopersGuideCh6 Using Remote Admin]
  * CH7:Using logging and customization
  * CH8:Xml configuration
  * CH9:Data Modes And Data Types
