@@ -2,7 +2,7 @@
 #labels Phase-Implementation
 #sidebar DevelopersGuideTOC
 
-= Using Remote Admin Support =
+= Using Remote Admin =
 
 Our server EchoServer, works fine. Lets say we need to modify few server configuration like Timeout message or Max Auth try message or max times authorization try can be done per session (maxAuthTry).. may be remotely, this is supported by QuickServer.
 
