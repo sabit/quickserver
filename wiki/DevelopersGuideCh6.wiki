@@ -321,10 +321,11 @@ public class EchoServer {
 So, now let's compile the new program and run it. Now start a client like SocketTest and send the command "*What's interest?*” it should display "*Interest is : 12.00%*". Now lets start QSAdminGUI has told earlier. And type the following command from Send message box and hit send.
 
 {{{get interest}}} This should now show the following output
+
 {{{+OK 12.00}}} Now lets change it, send the following command
+
 {{{set interest 15.00}}}
 
 Now again start a client like SocketTest and send the command "*What's interest?*” it should display "*Interest is : 15.00%*".
 
 So try a few tricks and experiment and learn.
-
