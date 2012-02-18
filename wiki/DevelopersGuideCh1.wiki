@@ -5,10 +5,11 @@
 = Introduction =
 `QuickServer` is a free, open source Java library for quick creation of robust and multi-threaded, multi-client TCP server applications. It provides an abstraction over the java.net.ServerSocket class; it eases the creation of powerful server applications. It has been designed and implemented by Akshathkumar Shetty. 
 
-Example programs demonstrating the use of the library can be found with the QuickServer distribution  [examples folder]. Latest examples, documentation is also available through the website http://www.quickserver.org or http://quickserver.sourceforge.net
+[Examples Example] programs demonstrating the use of the library can be found with the QuickServer distribution  [Examples examples] folder. 
+
+Latest examples, documentation is also available through the website http://www.quickserver.org or http://quickserver.sourceforge.net
 
 This guide is for any developer who wants to learn and use QuickServer. You should have basic knowledge of coding in java and a basic knowledge of networking and sockets will help.
-
 
 = Need for QuickServer =
 In any programming language, socket programming is no small feat to any programmer, and creating a multi-threaded multi-client server socket is a nightmare for most programmers. 
