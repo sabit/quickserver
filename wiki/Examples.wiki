@@ -1,14 +1,17 @@
 #summary One-sentence summary of Examples that come with QuickServer
 #labels Phase-Implementation
 
-= Introduction =
+= Introduction to Examples =
 
 QuickServer distribution come with several example projects under examples folder. These examples are written to demonstrate how to use some of the features of QuickServer. These also serve as test cases for various features of QuickServer.
 
 _Note: These examples were written to be simple and easy to understand and not as a production versions. So the author/s have not taken security or performance has his main criteria._
 
-Below is the list of all the examples that come with QuickServer and what they do and what features do they demonstrate.
 
+
+= List of Examples =
+
+Below is the list of all the examples that come with QuickServer and what they do and what features do they demonstrate.
 
 == EchoServer ==
 Simple Server - Sends back "Echo :"+MSG where MSG is the message sent by the client socket.
