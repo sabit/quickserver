@@ -1,4 +1,4 @@
-#summary Developers Guide Chapter 6 - Using Logging and customisation
+#summary Developers Guide Chapter 7 - Using Logging
 #labels Phase-Implementation,logging
 #sidebar DevelopersGuideTOC
 
