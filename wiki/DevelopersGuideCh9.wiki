@@ -1,0 +1,47 @@
+#summary Developers Guide Chapter 9 - Data Modes and Data Types
+#labels Phase-Implementation
+#sidebar DevelopersGuideTOC
+
+= Data Modes and Data Types =
+
+Until now we have been communicating only using string that end with <CR><LF>. Well this will work most Internet standard protocols. But some time we may have to be able to receive stream of character bytes or receive java objects. 
+
+This is, were the DataMode and DataType classes comes in handy. Using this you can tell ClientHandler which mode of communication to be used. 
+
+DataMode class is used to define format of data exchange between QuickServer and client socket. There are currently four supported modes
+
+ * DataMode.STRING – This is the default mode of exchange. In this mode you can receive data as String (characters terminated by <CR><LF> pr {{{\r\n}}}).
+
+ * DataMode.OBJECT – In this mode you can receive java objects that are Serializable. This mode is only useful if the client is also written in java.
+
+ * DataMode.BYTE – In this mode you can receive all the char sent by the client including <CR> or <LF> or any other control characters. This mode is very useful when dealing with hardware based client or non-standard protocol like XML over http or when defining your own protocol.
+
+ * DataMode.BINARY – In this mode you can receive all the binary data sent by the client including <CR> or <LF> or any other control characters. This mode is very useful when dealing with hardware based client or non-standard protocol like XML over http or when defining your own protocol.
+
+
+DataType class is used to define the type (direction) of data exchanging between QuickServer and client socket. There are currently two types
+ * DataType.IN – This is used to define incoming data into QuickServer.
+ * DataType.OUT – This is used to define outgoing data from QuickServer.
+
+One can change the default data-mode to any mode using QuickServer xml or by setting the mode by code.. below is an example..
+{{{
+      <default-data-mode>
+               <data-type-in>Byte</data-type-in>
+               <data-type-out>Byte</data-type-out>
+       </default-data-mode>
+}}}
+
+or
+
+{{{
+quickserver.setDefaultDataMode(DataMode.STRING, DataType.IN);
+}}}
+
+The data mode of any client may be set by modifying ClientHandler object using the setDataMode() function. The format is given bellow
+{{{
+setDataMode(DataMode dataMode, DataType dataType)
+}}}
+
+*Note:* When mode is DataMode.OBJECT and type is DataType.IN this call will block until the client ObjectOutputStream has written and flushes the header.
+
+In next chapters lets try to explore the other modes of data exchange.
