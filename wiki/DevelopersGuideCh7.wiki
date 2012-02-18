@@ -2,7 +2,7 @@
 #labels Phase-Implementation,logging
 #sidebar DevelopersGuideTOC
 
-= Using Logging and customisation =
+= Using Logging =
 
 Logging is an important tool for any project. Logging help us to understand what is happening inside our projects, it also provides the auditing and debugging information. 
 
