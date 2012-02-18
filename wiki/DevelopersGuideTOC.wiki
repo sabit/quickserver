@@ -12,7 +12,11 @@
  * CH6:[DevelopersGuideCh6 Using Remote Admin]
  * CH7:[DevelopersGuideCh7 Using logging]
  * CH8:[DevelopersGuideCh8 XML configuration]
- * CH9:Data Modes And Data Types
- * CH10:Communication With OBJECT Mode
- * CH11:Communication With BYTE Mode
- * CH12:XML based JDBC Mapping
+ * CH9:[DevelopersGuideCh9 Data Modes And Data Types]
+ * CH10:Using BYTE Mode
+ * CH11:Using BINARY Mode
+ * CH12:Using OBJECT Mode
+ * CH13:XML based JDBC Mapping
+ * CH14:QuickClient - Using Basic API
+ * CH15:QuickClient - Monitoring and Load balancing
+ * CH16:QuickClient - Connection Pooling
