@@ -10,13 +10,13 @@ This is, were the DataMode and DataType classes comes in handy. Using this you c
 
 DataMode class is used to define format of data exchange between QuickServer and client socket. There are currently four supported modes
 
- * *DataMode.STRING* – This is the default mode of exchange. In this mode you can receive data as String (characters terminated by {{{<CR><LF>}}} or {{{\r\n}}}).
+ * *`DataMode.STRING`* – This is the default mode of exchange. In this mode you can receive data as String (characters terminated by {{{<CR><LF>}}} or {{{\r\n}}}).
 
- * *DataMode.OBJECT* – In this mode you can receive java objects that are Serializable. This mode is only useful if the client is also written in java.
+ * *`DataMode.OBJECT`* – In this mode you can receive java objects that are Serializable. This mode is only useful if the client is also written in java.
 
- * *DataMode.BYTE* – In this mode you can receive all the char sent by the client including {{{<CR>}}} or {{{<LF>}}} or any other control characters. This mode is very useful when dealing with hardware based client or non-standard protocol like XML over http or when defining your own protocol.
+ * *`DataMode.BYTE`* – In this mode you can receive all the char sent by the client including {{{<CR>}}} or {{{<LF>}}} or any other control characters. This mode is very useful when dealing with hardware based client or non-standard protocol like XML over http or when defining your own protocol.
 
- * *DataMode.BINARY* – In this mode you can receive all the binary data sent by the client including {{{<CR>}}} or {{{<LF>}}} or any other control characters. This mode is very useful when dealing with hardware based client or non-standard protocol like XML over http or when defining your own protocol.
+ * *`DataMode.BINARY`* – In this mode you can receive all the binary data sent by the client including {{{<CR>}}} or {{{<LF>}}} or any other control characters. This mode is very useful when dealing with hardware based client or non-standard protocol like XML over http or when defining your own protocol.
 
 
 DataType class is used to define the type (direction) of data exchanging between QuickServer and client socket. There are currently two types
