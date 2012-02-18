@@ -10,8 +10,8 @@
  * CH4:[DevelopersGuideCh4 Adding authentication]
  * CH5:[DevelopersGuideCh5 Using ClientData]
  * CH6:[DevelopersGuideCh6 Using Remote Admin]
- * CH7:Using logging and customization
- * CH8:Xml configuration
+ * CH7:[DevelopersGuideCh7 Using logging]
+ * CH8:[DevelopersGuideCh8 XML configuration]
  * CH9:Data Modes And Data Types
  * CH10:Communication With OBJECT Mode
  * CH11:Communication With BYTE Mode
