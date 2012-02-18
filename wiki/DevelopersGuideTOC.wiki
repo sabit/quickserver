@@ -17,6 +17,6 @@
  * CH11:Using BINARY Mode
  * CH12:Using OBJECT Mode
  * CH13:XML based JDBC Mapping
- * CH14:QuickClient - Using Basic API
- * CH15:QuickClient - Monitoring and Load balancing
- * CH16:QuickClient - Connection Pooling
+ * CH14:Using QuickClient API
+ * CH15:QuickClient Monitoring and Load balancing
+ * CH16:QuickClient Connection Pooling
