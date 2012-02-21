@@ -51,7 +51,7 @@ objects created by QuickServer when it starts.
 
 QuickServerConfig object is constructed by initService() method of the Service interface, that QuickServer implements, after reading configuration from XML file. 
 
-= QuickServer - Threading Model =
+= `QuickServer` - Threading Model =
 
 For every server instance there will be
 
