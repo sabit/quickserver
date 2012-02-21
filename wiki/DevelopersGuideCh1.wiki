@@ -49,12 +49,11 @@ http://farm8.staticflickr.com/7209/6861846329_6df7af1abe_o.gif
  * boolean suspendService() 
  * boolean stopService()
 
-Of the seven components connected to QuickServer block only ClientCommandHandler class is the absolutely necessary class. 
+Of the eight components connected to QuickServer block only ClientCommandHandler class is the absolutely necessary class. 
 
 QuickServerConfig object is constructed by initService() method of the Service interface, that QuickServer implements, after reading configuration from XML file. QuickServerConfig is then used to configure QuickServer.
 
-
-ClientHandler thread object is used from the pool of object for every client connected; optional ClientData class is associated with the ClientHandler class. ClientHandler object contain references to ClientCommandHandler, ClientObjectHandler(optonal), ClientAuthenticationHandler (optional) objects contained with in the main QuickServer.
+ClientHandler thread object is used from the pool of object for every client connected; optional ClientData class is associated with the ClientHandler class. ClientHandler object contain references to ClientCommandHandler, ClientObjectHandler, ClientAuthenticationHandler (optional) objects contained with in the main QuickServer.
 
 NOTE: QSAdminServer is not shown in this diagram, it is a composed QuickServer within the main QuickServer.
 
@@ -62,6 +61,7 @@ See the [Architecture Architecture] for more on architecture of QuickServer.
 
 = Major Features =
  * Create multi-threaded, multi-client TCP server applications.
+ * Support for secure server creations: SSL, TLS.
  * Clear separation of server, protocol and authentication logic.
  * Remote administration support with GUI.
  * Restart or Suspend the server without killing connected clients.
@@ -78,7 +78,7 @@ See the [Architecture Architecture] for more on architecture of QuickServer.
  * Nice easy examples come with the distribution - FTPServer, CmdServer, EchoWebServer, ChatServer.
 
 
-More on Features may be viewd at [Features Features]
+More on Features may be viewed at [Features Features]
 
 = Request to Developers =
 If you would like to contribute to the development of QuickServer please do get in touch with me. I am always on the lookout for people who can contribute to make this library even better.
