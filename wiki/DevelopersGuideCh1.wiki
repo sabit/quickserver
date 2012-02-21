@@ -17,18 +17,29 @@ In any programming language, socket programming is no small feat to any programm
 We always waste time in writing the same code each time we build new software, which handles multiple socket connections. So I have made a library - QuickServer, to handle a creation of multi-threaded, multi-client server applications for Java. With this library one can just concentrate on just the application logic/protocol on hand.
 
 = Basic Architecture =
-QuickServer divides the application logic of its developer over four classes,
+QuickServer divides the application logic of its developer over eight main classes,
 
+ * ClientEventHandler [Optional Class]
+    * Handles client events
  * ClientCommandHandler
-    * Handle client interaction - String commands.
- * ClientObjectHandler [Optional Class]
-    * Handle client interaction - Object commands.
- * Authenticator [Optional Class]
+    * Handle client interaction - Character/String data.
+ * ClientBinaryHandler
+    * Handles client interaction - Binary data.
+ * ClientObjectHandler
+    * Handles client interaction - Java Object data.
+ * ClientWriteHandler [Optional Class]
+    * Handles client write operation - Non-Blocking Mode Only.
+ * ClientAuthenticationHandler [Optional Class]
     * Used to authenticate a client.
  * ClientData [Optional Class]
-    * Client data carrier (support class)
+    * Client data carrier (support class) 
+ * ClientExtendedEventHandler [Optional Class]
+    * Handles extended client events. 
 
 The diagram below shows the basic architecture of QuickServer library. The seven spokes on the QuickServer block are the seven Service methods. 
+
+http://farm8.staticflickr.com/7209/6861846329_6df7af1abe_o.gif
+==== Figure 1.1 ====
 
  * java.lang.String info() 
  * int getServiceState() 
@@ -38,13 +49,12 @@ The diagram below shows the basic architecture of QuickServer library. The seven
  * boolean suspendService() 
  * boolean stopService()
 
-Of the four components connected to QuickServer block only ClientCommandHandler class is the absolutely necessary class. 
+Of the seven components connected to QuickServer block only ClientCommandHandler class is the absolutely necessary class. 
+
 QuickServerConfig object is constructed by initService() method of the Service interface, that QuickServer implements, after reading configuration from XML file. QuickServerConfig is then used to configure QuickServer.
 
-http://farm8.staticflickr.com/7209/6861846329_6df7af1abe_o.gif
-==== Figure 1.1 ====
 
-ClientHandler thread object is used from the pool of object for every client connected; optional ClientData class is associated with the ClientHandler class. ClientHandler object contain references to ClientCommandHandler, ClientObjectHandler(optonal), Authenticator(optional) objects contained with in the main QuickServer.
+ClientHandler thread object is used from the pool of object for every client connected; optional ClientData class is associated with the ClientHandler class. ClientHandler object contain references to ClientCommandHandler, ClientObjectHandler(optonal), ClientAuthenticationHandler (optional) objects contained with in the main QuickServer.
 
 NOTE: QSAdminServer is not shown in this diagram, it is a composed QuickServer within the main QuickServer.
 
