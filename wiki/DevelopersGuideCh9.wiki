@@ -46,7 +46,19 @@ The data mode of any client may be set by modifying ClientHandler object using t
 setDataMode(DataMode dataMode, DataType dataType)
 }}}
 
+= Changing DataMode =
+One can change the DataMode any time during the life of the client using the following code. 
 
+Let's say you like to send out binary data and your default DataMode was String then you can use the following code.. to change to it..
+{{{
+    handler.setDataMode(DataMode.BINARY, DataType.OUT);
+    handler.sendClientBinary(buffer,0, len);//now send out data
+}}}
+
+You may also change the incomming DataMode to say BYTE like this..
+{{{
+    handler.setDataMode(DataMode.BYTE, DataType.IN);
+}}}
 
 = Working with DataMode =
 
