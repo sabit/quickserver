@@ -36,7 +36,7 @@ Developers do checkout our [QuickStartTutor QuickStart-Tutor], [DevelopersGuide 
 
 == API Documentation ==
 View API Docs of v [http://quickserver.org/docs/1.4.7 1.4.7]
-View API Docs of v [http://quickserver.org/docs/1.4.6 1.4.6]
+View API Docs of v [http://quickserver.org/docs/2.0.0 2.0.0]
 
 
 == Request to Developers == 
