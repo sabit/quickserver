@@ -26,17 +26,22 @@
 
 
  
-= What's New in 1.4.7 =
+= What's New in 2.0.0 RC1 =
 
- * Implemented support auto NIO writes in sendClientXXX methods of ClientHandler.
- * Added initServer() method that throws AppException if it fails.
- * Added getServiceError() to Service.
- * Added load() method to QuickServer that loads the server from the xml file.
- * Improved ByteBufferInputStream for readLine.
- * Improved BasicClientHandler, NonBlockingClientHandler.
- * Improved setClassLoader() in QuickServer.
- * GhostSocketReaper now will close pools after last client disconnects after server is stopped.
- * Many more bug fixes and enhancements.
+ * Added BroadcastServer example.
+ * Added org.quickserver.net.client
+ * Added org.quickserver.net.client.loaddistribution.
+ * Added org.quickserver.net.client.monitoring
+ * Added org.quickserver.util.pool.thread.app a thread pool for use by application logic
+ * Added more param in advanced-settings for performance-preferences
+ * Added Generic Client Socket Pool
+ * Added TotalReadBytes, TotalWrittenBytes to client handler
+ * Added support for raw Communication Logging (in case of binary mode)
+ * Added BlockingUDBClient and UDP Monitoring support
+ * Added AsyncHandler for JDK logging
+ * sendClientXXX methods improved to make synchronized writes.
+ * Improved TextFile read methods.
+ * Improved readInputStream() method in BasicClientHandler to check for available data and EOF in read() method call.
 
 *Download Page*: DownloadPage
 
