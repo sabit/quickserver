@@ -1,5 +1,21 @@
 #summary QuickServer Changelog
 
+== Version 2.0.0 RC1 [20-Oct-2012] ==
+ * Added BroadcastServer example.
+ * Added org.quickserver.net.client
+ * Added org.quickserver.net.client.loaddistribution.
+ * Added org.quickserver.net.client.monitoring
+ * Added org.quickserver.util.pool.thread.app a thread pool for use by application logic
+ * Added more param in advanced-settings for performance-preferences
+ * Added Generic Client Socket Pool
+ * Added TotalReadBytes, TotalWrittenBytes to client handler
+ * Added support for raw Communication Logging (in case of binary mode)
+ * Added BlockingUDBClient and UDP Monitoring support
+ * Added AsyncHandler for JDK logging
+ * sendClientXXX methods improved to make synchronized writes.
+ * Improved TextFile read methods.
+ * Improved readInputStream() method in BasicClientHandler to check for available data and EOF in read() method call.
+
 == Version 1.4.7 [01-Mar-2006] ==
  * Implemented support NIO writes in sendClientXXX methods of ClientHandler.
  * Added initServer() that throws App Exception if it fails.
