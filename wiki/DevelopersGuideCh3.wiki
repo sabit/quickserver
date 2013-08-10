@@ -10,7 +10,7 @@ A good way to learn how to use QuickServer library is to study the examples prov
 
 So what is the server we will be building? It is called EchoServer – It’s a simple TCP server that echoes back any line of input that user sends with and '{{{Echo : }}}' prefixed. 
 
-Create a director at some location [ say c:\projects\java\ ] called ‘echoserver’.
+Create a directory at some location [ say c:\projects\java\ ] called ‘echoserver’.
 
 Now lets create the main class of echoserver *EchoServer.java* save it in the directory ‘echoserver’.
 
