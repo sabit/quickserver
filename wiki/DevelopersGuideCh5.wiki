@@ -212,6 +212,8 @@ S: Bye ;-)
 
 The code that we have written till now that uses ClientData works fine, but the problem is that for every client connected QuickServer will create a new object of ClientData. This can be performance bottleneck, if the ClientData was in turn having heavy objects part of it. 
 
+*You should only pool ClientData if the heavy objects and is expensive to create.*
+
 This problem can be slowed by telling QuickServer that it has to, create a pool of objects for ClientData and use objects from this pool whenever a client connects to it. We can do this implementing the interface 
 {{{
 org.quickserver.util.pool.PoolableObject
