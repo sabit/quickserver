@@ -1,4 +1,16 @@
-#summary QuickServer Changelog
+#summary QuickServer Change Log
+
+== Version 2.0.0 [15-Feb-2014] ==
+ * Added new commands in QSAdmin 
+  * kill-client-with <target> <search term>
+  * kill-clients-all <target>
+* Added readBytes with length support for BlockingClient
+* Added PID, Lib Version, Uptime in info server
+* Added QuickServerDebugHelper class - allows info server and pool dump to log file
+* Bug fix in BlockingClientPool (high tps noop failure fix)
+* Bug fix in SocketMonitor
+* Bug fix in readCRLFLine for BlockingClient
+* QSAdmin New commands introduced like JVM jmap & jstack
 
 == Version 2.0.0 RC1 [20-Oct-2012] ==
  * Added BroadcastServer example.
