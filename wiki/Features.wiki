@@ -43,6 +43,6 @@
  * Improved TextFile read methods.
  * Improved readInputStream() method in BasicClientHandler to check for available data and EOF in read() method call.
 
-*Download Page*: [http://code.google.com/p/quickserver/downloads/list DownloadPage]
+*Download Page*: [http://www.quickserver.org/download.html DownloadPage]
 
 *View Change Log*: ChangeLog
