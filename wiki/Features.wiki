@@ -26,7 +26,7 @@
 
 
  
-= What's New in 2.0.0 RC1 =
+= What's New in 2.0.0 =
 
  * Added BroadcastServer example.
  * Added org.quickserver.net.client
